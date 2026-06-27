@@ -1,181 +1,223 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحتي التعريفية | مطور ويب وأندرويد</title>
-    <style>
-        :root {
-            --primary-color: #007bcc;
-            --secondary-color: #2d3748;
-            --bg-color: #f7fafc;
-            --text-color: #1a202c;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: var(--secondary-color);
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            color: #cbd5e0;
-            margin-top: 10px;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        section {
-            background: white;
-            margin: 30px 0;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 10px;
-            margin-top: 0;
-        }
-
-        .services-grid, .portfolio-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background: var(--bg-color);
-            padding: 20px;
-            border-radius: 6px;
-            border-top: 4px solid var(--primary-color);
-        }
-
-        .card h3 {
-            margin-top: 0;
-        }
-
-        .skills-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            padding: 0;
-            list-style: none;
-        }
-
-        .skills-list li {
-            background: #e2e8f0;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: 500;
-        }
-
-        .btn {
-            display: inline-block;
-            background: var(--primary-color);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-
-        .btn:hover {
-            background: #005fa3;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: var(--secondary-color);
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محفظتي - أحمد محمد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-
-    </header>
-
-    <div class="container">
-        
-        <!-- قسم نبذة عني -->
-        <section id="about">
-            <h2>نبذة عني</h2>
-            <p>أنا مطور تطبيقات ويب وموبايل شغوف بتحويل الأفكار إلى حلول برمجية ذكية ومستقرة. أركز دائماً على تقديم كود نظيف وقابل للتوسع، مع تجربة مستخدم (UX) سلسة ومميزة تناسب احتياجات عملائي.</p>
-        </section>
-
-        <!-- قسم الخدمات -->
-        <section id="services">
-            <h2>خدماتي</h2>
-            <div class="services-grid">
-                <div class="card">
-                    <h3>تطوير تطبيقات الأندرويد</h3>
-                    <p>بناء تطبيقات أندرويد أصلية (Native) أو هجينة (Cross-platform) تتميز بالأداء العالي والتصميم العصري المتوافق مع مختلف الشاشات.</p>
-                </div>
-                <div class="card">
-                    <h3>تطوير تطبيقات الويب</h3>
-                    <p>تصميم وبرمجة مواقع وتطبيقات ويب متكاملة (Full-Stack) سريعة، آمنة، ومتوافقة مع محركات البحث (SEO).</p>
-                </div>
-                <div class="card">
-                    <h3>برمجة الواجهات الخلفية (Backend)</h3>
-                    <p>بناء خوادم مستقرة، وتصميم قواعد بيانات ذكية، وتطوير واجهات برمجة التطبيقات (APIs) لربط الأنظمة بكفاءة.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- قسم المهارات -->
-        <section id="skills">
-            <h2>المهارات البرمجية</h2>
-            <ul class="skills-list">
-                <li>JavaScript</li>
-                <li>Python / Flask</li>
-                <li>Android Development</li>
-                <li>Flutter / Java</li>
-                <li>HTML5 & CSS3</li>
-                <li>SQL / SQLite</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
-
-        <!-- قسم تواصل معي -->
-        <section id="contact" style="text-align: center;">
-            <h2>هل لديك مشروع تبحث عن تنفيذه؟</h2>
-            <p>أنا متاح دائماً للمشاريع المستقلة والاستشارات التقنية. دعنا نتحدث حول مشروعك القادم!</p>
-            <a href="mailto:your.email@example.com" class="btn">تواصل معي عبر البريد</a>
-        </section>
-
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="#" class="logo">&lt;أحمد /&gt;</a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">الرئيسية</a></li>
+          <li><a href="#about">عنّي</a></li>
+          <li><a href="#skills">المهارات</a></li>
+          <li><a href="#projects">المشاريع</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
     </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2026 جميع الحقوق محفوظة.</p>
-    </footer>
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-greet">مرحباً، أنا</p>
+        <h1>أحمد محمد</h1>
+        <h2>مطور واجهات أمامية</h2>
+        <p class="hero-desc">أُحوِّل التصاميم إلى تجارب رقمية سلسة وأنيقة. أركز على بناء واجهات مستخدم تفاعلية ومتجاوبة.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">أعمالي</a>
+          <a href="#contact" class="btn btn-outline">تواصل معي</a>
+        </div>
+        <div class="hero-social">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-wrapper">
+          <i class="fas fa-user-astronaut"></i>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">عنّي</h2>
+      <p class="section-sub">تعرف علي أكثر</p>
+      <div class="about-content">
+        <div class="about-img">
+          <div class="about-img-box">
+            <i class="fas fa-code"></i>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>مطور واجهات أمامية شغوف بالتفاصيل</h3>
+          <p>أنا مطور واجهات أمامية مقيم في القاهرة، لدي خبرة سنتين في بناء تطبيقات الويب باستخدام HTML و CSS و JavaScript و React. أحب تحويل التصاميم الإبداعية إلى كود نظيف وسريع.</p>
+          <p>أعمل حالياً كمطور مستقل وأسعى دائماً لتطوير مهاراتي وتعلم أحدث التقنيات في عالم الويب. أؤمن بأن البرمجة فن قبل أن تكون تقنية.</p>
+          <div class="about-info">
+            <div><span>الاسم:</span> أحمد محمد</div>
+            <div><span>البريد:</span> ahmed@example.com</div>
+            <div><span>الإقامة:</span> القاهرة، مصر</div>
+            <div><span>التخصص:</span> واجهات أمامية</div>
+          </div>
+          <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> تحميل السيرة</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">المهارات</h2>
+      <p class="section-sub">ما أجيده من تقنيات</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h4>HTML</h4>
+          <div class="progress"><div class="progress-fill" style="width:95%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS</h4>
+          <div class="progress"><div class="progress-fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+          <div class="progress"><div class="progress-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h4>React</h4>
+          <div class="progress"><div class="progress-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-sass"></i>
+          <h4>Sass</h4>
+          <div class="progress"><div class="progress-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-git-alt"></i>
+          <h4>Git</h4>
+          <div class="progress"><div class="progress-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-bootstrap"></i>
+          <h4>Bootstrap</h4>
+          <div class="progress"><div class="progress-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-figma"></i>
+          <h4>Figma</h4>
+          <div class="progress"><div class="progress-fill" style="width:70%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">المشاريع</h2>
+      <p class="section-sub">بعض أعمالي السابقة</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img"><i class="fas fa-store"></i></div>
+          <div class="project-info">
+            <h4>متجر إلكتروني</h4>
+            <p>متجر متكامل مع سلة تسوق وفلترة منتجات بواجهة سهلة الاستخدام.</p>
+            <div class="project-tags">
+              <span>React</span><span>CSS</span><span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img"><i class="fas fa-cloud-sun"></i></div>
+          <div class="project-info">
+            <h4>لوحة الطقس</h4>
+            <p>تطبيق يعرض أحوال الطقس لمدن العالم مع رسومات متحركة ورسم بياني.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>API</span><span>Chart.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img"><i class="fas fa-tasks"></i></div>
+          <div class="project-info">
+            <h4>مدير المهام</h4>
+            <p>تطبيق ويب لإدارة المهام اليومية مع خاصية السحب والإفلات والتذكيرات.</p>
+            <div class="project-tags">
+              <span>React</span><span>Firebase</span><span>SCSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">تواصل</h2>
+      <p class="section-sub">يسعدني سماع رأيك</p>
+      <div class="contact-content">
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="الاسم" required>
+          <input type="email" placeholder="البريد الإلكتروني" required>
+          <textarea rows="6" placeholder="رسالتك" required></textarea>
+          <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+        </form>
+        <div class="contact-info">
+          <div><i class="fas fa-envelope"></i> hamzamebarek1980@gmail.com</div>
+          <div><i class="fas fa-phone"></i> (07) 90 81 36 24</div>
+        
+          <div class="hero-social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 . جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
